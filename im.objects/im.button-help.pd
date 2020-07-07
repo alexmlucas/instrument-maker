@@ -1,0 +1,33 @@
+#N canvas 52 58 551 630 10;
+#X obj 11 10 cnv 15 500 120 empty empty instrument_maker 10 22 0 40
+-4032 -66577 0;
+#X obj 22 60 cnv 15 478 40 empty empty im.button 20 22 0 30 -1 -196864
+0;
+#X obj 11 192 cnv 15 500 20 empty empty Arguments: 10 10 0 13 -203904
+-66577 0;
+#X obj 11 215 cnv 15 500 20 empty empty Inlets: 34 10 0 13 -204800
+-66577 0;
+#X obj 11 239 cnv 15 500 40 empty empty Outlets: 25 10 0 13 -204786
+-66577 0;
+#X text 21 171 comment, f 81;
+#X obj 11 135 cnv 15 500 50 empty empty empty 25 10 0 13 -262130 -66577
+0;
+#X obj 11 547 cnv 15 500 40 empty empty empty 25 10 0 13 -262130 -66577
+0;
+#X text 105 217 none;
+#X text 22 110 Alex Lucas 2020;
+#X text 105 196 1) Hold/double-press time in ms., f 64;
+#X obj 212 330 im.button 1000;
+#X obj 35 457 im.snapshot;
+#X obj 151 457 im.snapshot;
+#X obj 267 457 im.snapshot;
+#X obj 384 457 im.snapshot;
+#X text 22 140 A simple graphical object to emulate various types of
+button interaction., f 80;
+#X text 106 240 1) Standard on/off signal between 0 and 1 \, 2) inverted
+signal \, 3) signal on 'press and hold' \, 4) signal on double-press.
+;
+#X connect 11 0 12 0;
+#X connect 11 1 13 0;
+#X connect 11 2 14 0;
+#X connect 11 3 15 0;
