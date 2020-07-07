@@ -1,4 +1,4 @@
-#N canvas 183 287 542 558 12;
+#N canvas 69 127 542 558 12;
 #X obj 11 10 cnv 15 500 120 empty empty instrument_maker 10 22 0 40
 -4032 -66577 0;
 #X obj 23 60 cnv 15 478 40 empty empty im.adaptivebellows 20 22 0 30
@@ -23,10 +23,10 @@
 #X obj 290 421 im.volume;
 #X obj 290 445 im.speaker;
 #X text 225 367 sound source;
-#X obj 350 276 im.keypress w;
+#X obj 350 277 im.keypress w;
 #X obj 225 386 im.sinewave E 4;
 #X obj 147 333 im.snapshot;
-#X obj 366 330 im.snapshot;
+#X obj 366 331 im.snapshot;
 #X text 22 110 Joe Wright 2020;
 #X text 105 193 1) Smoothness, f 64;
 #X text 106 241 1) Ramped bellows-like output;
@@ -34,7 +34,7 @@
 output. The speed of the attack and decay adapts depending on the speed
 of the trigger input.;
 #X obj 133 304 im.adaptivebellows 0.1;
-#X obj 350 302 im.adaptivebellows 0.7;
+#X obj 350 303 im.adaptivebellows 0.7;
 #X connect 9 0 25 0;
 #X connect 10 0 11 0;
 #X connect 12 0 10 0;
