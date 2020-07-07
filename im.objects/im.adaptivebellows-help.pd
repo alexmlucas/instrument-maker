@@ -1,4 +1,4 @@
-#N canvas 69 127 542 558 12;
+#N canvas 458 23 541 596 12;
 #X obj 11 10 cnv 15 500 120 empty empty instrument_maker 10 22 0 40
 -4032 -66577 0;
 #X obj 23 60 cnv 15 478 40 empty empty im.adaptivebellows 20 22 0 30
@@ -13,8 +13,6 @@
 0;
 #X obj 11 477 cnv 15 500 40 empty empty empty 25 10 0 13 -262130 -66577
 0;
-#X text 19 549 comment, f 81;
-#X text 18 567 comment, f 81;
 #X obj 133 277 im.keypress q;
 #X obj 73 421 im.volume;
 #X obj 73 446 im.speaker;
@@ -35,13 +33,13 @@ output. The speed of the attack and decay adapts depending on the speed
 of the trigger input.;
 #X obj 133 304 im.adaptivebellows 0.1;
 #X obj 350 303 im.adaptivebellows 0.7;
-#X connect 9 0 25 0;
-#X connect 10 0 11 0;
-#X connect 12 0 10 0;
-#X connect 14 0 15 0;
-#X connect 17 0 26 0;
-#X connect 18 0 14 0;
-#X connect 25 0 10 1;
-#X connect 25 0 19 0;
-#X connect 26 0 14 1;
-#X connect 26 0 20 0;
+#X connect 7 0 23 0;
+#X connect 8 0 9 0;
+#X connect 10 0 8 0;
+#X connect 12 0 13 0;
+#X connect 15 0 24 0;
+#X connect 16 0 12 0;
+#X connect 23 0 8 1;
+#X connect 23 0 17 0;
+#X connect 24 0 12 1;
+#X connect 24 0 18 0;
