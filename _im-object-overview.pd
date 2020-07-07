@@ -1,4 +1,4 @@
-#N canvas -1854 45 862 795 10;
+#N canvas -1715 431 862 795 10;
 #X obj 12 39 cnv 15 800 160 empty empty inputs 25 15 0 20 -203904 -66577
 0;
 #X obj 19 120 im.sensor;
@@ -94,3 +94,4 @@ f 50;
 #X text 553 691 invert a trigger signal;
 #X obj 421 713 im.snapshot;
 #X text 553 715 view a control signal;
+#X text 208 22 test comment;
