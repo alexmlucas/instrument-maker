@@ -1,0 +1,47 @@
+#N canvas 183 287 542 558 12;
+#X obj 11 10 cnv 15 500 120 empty empty instrument_maker 10 22 0 40
+-4032 -66577 0;
+#X obj 23 60 cnv 15 478 40 empty empty im.adaptivebellows 20 22 0 30
+-1 -196864 0;
+#X obj 11 192 cnv 15 500 20 empty empty Arguments: 10 10 0 13 -203904
+-66577 0;
+#X obj 11 215 cnv 15 500 20 empty empty Inlets: 34 10 0 13 -204800
+-66577 0;
+#X obj 11 239 cnv 15 500 20 empty empty Outlets: 25 10 0 13 -204786
+-66577 0;
+#X obj 11 135 cnv 15 500 50 empty empty empty 25 10 0 13 -262130 -66577
+0;
+#X obj 11 477 cnv 15 500 40 empty empty empty 25 10 0 13 -262130 -66577
+0;
+#X text 19 549 comment, f 81;
+#X text 18 567 comment, f 81;
+#X obj 133 277 im.keypress q;
+#X obj 73 421 im.volume;
+#X obj 73 446 im.speaker;
+#X obj 19 384 im.sinewave A 4;
+#X text 19 365 sound source;
+#X obj 290 421 im.volume;
+#X obj 290 445 im.speaker;
+#X text 225 367 sound source;
+#X obj 350 276 im.keypress w;
+#X obj 225 386 im.sinewave E 4;
+#X obj 147 333 im.snapshot;
+#X obj 366 330 im.snapshot;
+#X text 22 110 Joe Wright 2020;
+#X text 105 193 1) Smoothness, f 64;
+#X text 106 241 1) Ramped bellows-like output;
+#X text 21 139 Turns a binary trigger input into a variable \, bellows-like
+output. The speed of the attack and decay adapts depending on the speed
+of the trigger input.;
+#X obj 133 304 im.adaptivebellows 0.1;
+#X obj 350 302 im.adaptivebellows 0.7;
+#X connect 9 0 25 0;
+#X connect 10 0 11 0;
+#X connect 12 0 10 0;
+#X connect 14 0 15 0;
+#X connect 17 0 26 0;
+#X connect 18 0 14 0;
+#X connect 25 0 10 1;
+#X connect 25 0 19 0;
+#X connect 26 0 14 1;
+#X connect 26 0 20 0;
