@@ -19,7 +19,7 @@
 #X obj 78 210 pipe 10;
 #X text 151 138 get MIDI note number >>;
 #X text 157 176 get octave modifier >>;
-#N canvas -1167 483 620 527 getMidiNote 0;
+#N canvas 909 32 620 527 getMidiNote 1;
 #X obj 40 24 inlet;
 #X obj 40 49 sel 65 66 67 68 69 70 71;
 #X msg 98 75 24;
