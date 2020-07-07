@@ -1,4 +1,4 @@
-#N canvas -1920 23 1920 1035 10;
+#N canvas 22 32 610 548 10;
 #X obj 248 87 inlet~ signal;
 #X obj 247 155 snapshot~;
 #X obj 270 123 bang~;

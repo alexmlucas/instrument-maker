@@ -1,4 +1,4 @@
-#N canvas -1319 87 803 675 10;
+#N canvas 12 32 803 675 10;
 #X obj 80 32 keyname;
 #X obj 127 82 sel \$1;
 #X msg 127 147 1;

@@ -1,4 +1,4 @@
-#N canvas -1368 142 562 646 10;
+#N canvas 12 30 562 646 10;
 #X obj 11 10 cnv 15 500 120 empty empty instrument_maker 10 22 0 40
 -4032 -66577 0;
 #X obj 22 60 cnv 15 478 40 empty empty im.keyrelease 20 22 0 30 -1

@@ -1,4 +1,4 @@
-#N canvas -1715 431 862 795 10;
+#N canvas 672 23 862 900 10;
 #X obj 12 39 cnv 15 800 160 empty empty inputs 25 15 0 20 -203904 -66577
 0;
 #X obj 19 120 im.sensor;
@@ -12,7 +12,7 @@
 #X obj 20 278 im.sawtooth;
 #X obj 12 448 cnv 15 400 156 empty empty signal_processors 25 15 0
 20 -261234 -66577 0;
-#X obj 12 607 cnv 15 400 133 empty empty outputs 25 15 0 20 -232576
+#X obj 12 607 cnv 15 400 183 empty empty outputs 25 15 0 20 -232576
 -66577 0;
 #X obj 20 645 im.speaker;
 #X obj 416 335 cnv 15 396 110 empty empty note_generators 25 15 0 20
@@ -27,7 +27,7 @@
 #X obj 20 505 im.distort;
 #X obj 20 525 im.chorus;
 #X obj 20 565 im.filter;
-#X obj 416 551 cnv 15 396 190 empty empty misc_control 25 15 0 20 -262130
+#X obj 416 551 cnv 15 396 240 empty empty misc_control 25 15 0 20 -262130
 -66577 0;
 #X obj 422 585 im.lfo;
 #X obj 421 645 im.debounce;
@@ -58,7 +58,7 @@ f 50;
 #X text 107 503 simple distortion/overdrive;
 #X text 108 524 wobbly chorus effect;
 #X text 108 563 a resonant lowpass filter;
-#X text 671 744 www.instrumentmaker.org;
+#X text 667 804 www.instrumentmaker.org;
 #X obj 416 202 cnv 15 396 130 empty empty instruments 25 15 0 20 -232576
 -66577 0;
 #X obj 425 80 im.keypress;
@@ -94,4 +94,5 @@ f 50;
 #X text 553 691 invert a trigger signal;
 #X obj 421 713 im.snapshot;
 #X text 553 715 view a control signal;
-#X text 208 22 test comment;
+#X obj 421 741 im.retrigger;
+#X text 554 739 retrigger a signal at a set interval;
