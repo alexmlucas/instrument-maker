@@ -1,5 +1,5 @@
-#N canvas 210 50 862 900 10;
-#X obj 12 39 cnv 15 800 160 empty empty inputs 25 15 0 20 -203904 -66577
+#N canvas 138 56 862 900 10;
+#X obj 13 39 cnv 15 800 160 empty empty inputs 25 15 0 20 -203904 -66577
 0;
 #X obj 19 120 im.sensor;
 #X obj 19 80 im.microphone;
@@ -75,7 +75,6 @@ f 50;
 #X text 553 120 read a key release;
 #X text 553 140 read a press and hold of a key;
 #X text 554 100 read a double press of a key;
-#X text 554 236 tb-303 emulation;
 #X text 554 278 synthesised gong;
 #X text 554 258 Juno-esque mono synthesiser;
 #X text 553 368 trigger degrees of a scale;
@@ -108,3 +107,4 @@ f 50;
 #X text 149 785 trigger events with a bouncy ball model;
 #X text 149 804 generate randomised trigger events;
 #X text 557 718 emulate button/switch interaction;
+#X text 554 236 tb-303 inspired synthesiser;
